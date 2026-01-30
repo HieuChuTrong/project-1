@@ -1,4 +1,11 @@
-const start = document.querySelector('.title');
-window.addEventListener('scroll', () => {
-  start.style.opacity = Math.max(0, 1 - window.scrollY / 500);
+const btn = document.querySelectorAll('.btn');
+const btnStart = document.querySelector('.btn.btn1');
+
+btnStart.classList.add('active');
+
+btn.forEach(button => {
+  button.onclick = (e) => {
+    btn.forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+  }
 });
