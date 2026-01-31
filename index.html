@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,173 +8,172 @@
 
   <link rel="stylesheet" href="style/home.css">
 </head>
+
 <body>
-  <img 
-    class="icon"
-    width="100px"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%C4%90%C3%B4ng_S%C6%A1n.svg/960px-Tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%C4%90%C3%B4ng_S%C6%A1n.svg.png">
- 
-  <div class="side-bar"> 
-    
-    <div class="navigator">
+  <div class="main-layout">
+    <div class="side-bar">
+      <img class="icon"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%C4%90%C3%B4ng_S%C6%A1n.svg/960px-Tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%C4%90%C3%B4ng_S%C6%A1n.svg.png">
 
-      <button class="btn btn1">Khởi nguồn</button>
-      <button class="btn btn2">Tuổi trẻ</button>
-      <button class="btn btn3">Thời chiến</button>
-      <button class="btn btn4">Bản đồ lịch sử</button>
+      <div class="navigator">
+        <button class="btn" data-target="s1">Khởi nguồn</button>
+        <button class="btn" data-target="s2">Tuổi trẻ</button>
+        <button class="btn" data-target="s3">Thời chiến</button>
+        <button class="btn">Bản đồ lịch sử</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="show-name">
+        <h1>Tuổi trẻ với tinh thần yêu nước</h1>
+      </div>
+
+      <div id="s1" class="section section-1 active-section">
+        <div class="text-content">
+          <div class="title">
+            <h1>KHỞI NGUỒN</h1>
+            <h1>CỦA DÂN TỘC</h1>
+          </div>
+
+          <div class="text-box">
+            <p>
+              Lịch sử của Việt Nam bắt đầu từ những truyền thuyết hào hùng. Từ thời Hùng Vương dựng nước,
+              lòng yêu nước đã được hun đúc qua hàng vạn năm đấu tranh và bảo về bờ cõi. Đó là cội nguồn
+              sức mạnh vĩnh cửu.
+            </p>
+          </div>
+
+          <div class="static">
+            <div class="static-box">
+              <p class="num">4000</p>
+              <p class="name">NĂM VĂN HIẾN</p>
+            </div>
+            <div class="static-box">
+              <p class="num">54</p>
+              <p class="name">DÂN TỘC ANH EM</p>
+            </div>
+            <div class="static-box">
+              <p class="num">63</p>
+              <p class="name">TỈNH THÀNH</p>
+            </div>
+            <div class="static-box">
+              <p class="num">100M+</p>
+              <p class="name">NGƯỜI VIỆT</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-content">
+          <div class="map-container">
+            <img src="img/vnmap.png">
+          </div>
+        </div>
+      </div>
+
+      <div id="s2" class="section section-2">
+        <div class="text-content">
+          <div class="title">
+            <h1 style="color: #f1faee">TUỔI TRẺ VÀ</h1>
+            <h1 style="color: #e63946">LÝ TƯỞNG YÊU NƯỚC</h1>
+          </div>
+
+          <div class="description">
+            <div class="nd active-nd">
+              Tuổi trẻ là quãng thời gian đẹp nhất của đời người – nơi có ước mơ,
+              hoài bão và khát khao cống hiến. Mỗi người trẻ đều từng tự hỏi:
+              Mình sống để làm gì? Mình sẽ để lại điều gì cho cuộc đời?
+              Và với tuổi trẻ Việt Nam, câu trả lời chưa bao giờ tách rời khỏi
+              hai chữ yêu nước.
+            </div>
+
+            <div class="nd">
+              Lòng yêu nước ấy không chỉ được thể hiện trong những giai đoạn
+              lịch sử hào hùng, mà còn hiện diện rõ nét trong đời sống của tuổi trẻ
+              hôm nay. Trong thời bình, yêu nước bắt đầu từ những hành động giản
+              dị như học tập, rèn luyện đạo đức, sống có trách nhiệm với bản thân,
+              gia đình và xã hội.
+            </div>
+
+            <div class="nd">
+              Tuy nhiên, khi Tổ quốc lâm nguy, lòng yêu nước của tuổi trẻ Việt Nam
+              lại được thể hiện một cách mạnh mẽ và quyết liệt hơn bao giờ hết.
+              Trong những năm tháng chiến tranh, biết bao thế hệ thanh niên đã gác
+              lại ước mơ riêng, sẵn sàng lên đường chiến đấu, góp phần làm nên những
+              chiến thắng vẻ vang của dân tộc.
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-content">
+          <div class="view-point">
+            <div class="slider">
+              <img class="avd" src="img/pl.png">
+              <img class="avd" src="img/dtn.png">
+              <img class="avd" src="img/cat.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="s3" class="section section-3">
+        <div class="text-content">
+          <div class="title">
+            <h1 style="color: #f1faee">TUỔI TRẺ TRONG</h1>
+            <h1 style="color: #8d99ae">NHỮNG NĂM THÁNG</h1>
+            <h1 style="color: #e63946">ĐẤU TRANH</h1>
+          </div>
+
+          <div class="timeline-container">
+            <div class="timeline-item active-timeline">
+              <div class="text">
+                Trong kháng chiến chống thực dân Pháp, lòng yêu nước của tuổi trẻ
+                Việt Nam được thể hiện rõ nét qua chiến thắng Điện Biên Phủ. Hàng
+                vạn thanh niên đã rời mái trường, làng quê, góp sức người, sức
+                của cho chiến dịch lịch sử. Dù chỉ mới mười tám, đôi mươi,
+                họ đã đặt vận mệnh dân tộc lên trên tuổi xuân của mình.
+              </div>
+              <div class="timeline-date">
+                <span class="date-start">1946</span>
+                <span style="color: #fff">|</span>
+                <span class="date-end">1954</span>
+              </div>
+            </div>
+
+            <div class="timeline-item reversed">
+              <div class="timeline-date">
+                <span class="date-start">1954</span>
+                <span style="color: #fff">|</span>
+                <span class="date-end">1975</span>
+              </div>
+              <div class="text">
+                Đến thời kỳ kháng chiến chống Mỹ, tinh thần yêu nước của tuổi
+                trẻ tiếp tục tỏa sáng trong chiến trường Quảng Trị khốc liệt.
+                Rất nhiều người lính khi ấy vẫn còn ở độ tuổi thanh niên,
+                sẵn sàng đối mặt với bom đạn để bảo vệ từng tấc đất thiêng
+                liêng của Tổ quốc.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-content">
+          <div class="s3Pic" style="display: block;">
+            <img class="pic focus" src="img/dbp.png">
+            <img class="pic blur" src="img/mi.png">
+          </div>
+        </div>
+      </div>
+
+      <div id="s4" class="section section-4">
+        <div class="text-content" style="align-items: center; text-align: center;">
+          <h1 style="color: #f1faee; font-size: 3rem;">BẢN ĐỒ LỊCH SỬ</h1>
+          <p style="color: #8d99ae; margin-top: 20px;">ĐANG CẬP NHẬT...</p>
+        </div>
+      </div>
+
     </div>
   </div>
-
-  <div class="show-name">
-    <h1>Tuổi trẻ với tinh thần yêu nước</h1>
-  </div>
-
-  <div class="bar"></div>
-
-  <div class="content">
-
-    <div class="section section-1">
-
-      <div>
-        <div class="title">
-          <h1 style="color: #f1faee">KHỞI NGUỒN</h1>
-          <h1 style="color: #8d99ae">CỦA DÂN TỘC</h1>
-        </div>
-
-        <div class="text-box">
-          <p>
-            Lịch sử của Việt Nam bắt đầu từ những truyền thuyết hào hùng. Từ thời Hùng Vương dựng nước,
-            lòng yêu nước đã được hun đúc qua hàng vạn năm đấu tranh và bảo về bờ cõi. Đó là cội nguồn
-            sức mạnh vĩnh cửu.
-          </p>
-        </div>
-
-        <div class="static">
-          <div class="static-box sb1">
-            <p class="num">4000</p>
-            <p class="name">NĂM VĂN HIẾN</p>
-          </div>
-          <div class="static-box sb2">
-            <p class="num">54</p>
-            <p class="name">DÂN TỘC ANH EM</p>
-          </div>
-          <div class="static-box sb3">
-            <p class="num">34</p>
-            <p class="name">TỈNH THÀNH</p>
-          </div>
-          <div class="static-box sb4">
-            <p class="num">100M+</p>
-            <p class="name">NGƯỜI VIỆT</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="map-container">
-        <img style="border-radius: 12px;" src="img/vnmap.png">
-        
-        <div class="th-con">
-          <img style="border-radius: 12px;" src="img/36.png" width="350px" height="300px" alt="36">
-        </div>
-      </div>
-    </div>
-
-    <div class="section section-2">
-      <div>
-        <div class="title">
-          <h1 style="font-size: 60px; color: #f1faee; margin: 0;">TUỔI TRẺ VÀ</h1>
-          <h1 style="font-size: 60px; color: #e63946; margin: 0;">LÝ TƯỞNG YÊU NƯỚC</h1>
-        </div>
-
-        <div class="description">
-          <div class="nd nd-1">
-            Tuổi trẻ là quãng thời gian đẹp nhất của đời người – nơi có ước mơ,
-            hoài bão và khát khao cống hiến. Mỗi người trẻ đều từng tự hỏi:
-            Mình sống để làm gì? Mình sẽ để lại điều gì cho cuộc đời?
-            Và với tuổi trẻ Việt Nam, câu trả lời chưa bao giờ tách rời khỏi
-            hai chữ yêu nước.
-          </div>
-
-          <div class="nd nd-2">
-            Lòng yêu nước ấy không chỉ được thể hiện trong những giai đoạn 
-            lịch sử hào hùng, mà còn hiện diện rõ nét trong đời sống của tuổi t
-            rẻ hôm nay. Trong thời bình, yêu nước bắt đầu từ những hành động giản 
-            dị như học tập, rèn luyện đạo đức, sống có trách nhiệm với bản thân, 
-            gia đình và xã hội.
-          </div>
-
-          <div class="nd nd-3">
-            Tuy nhiên, khi Tổ quốc lâm nguy, lòng yêu nước của tuổi trẻ Việt Nam 
-            lại được thể hiện một cách mạnh mẽ và quyết liệt hơn bao giờ hết. 
-            Trong những năm tháng chiến tranh, biết bao thế hệ thanh niên đã gác
-            lại ước mơ riêng, sẵn sàng lên đường chiến đấu, góp phần làm nên những
-            chiến thắng vẻ vang của dân tộc.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="img-con">
-      <div class="view-point">
-        <div class="slider">
-          <img class="avd" src="img/pl.png">
-          <img class="avd" src="img/dtn.png">
-          <img class="avd" src="img/cat.png">
-        </div>
-      </div>
-    </div>
-
-    <div class="section section-3">
-      <div>
-        <div class="title">
-          <h1 style="font-size: 60px; color: #f1faee; margin: 0;">TUỔI TRẺ TRONG</h1>
-          <h1 style="font-size: 60px; color: #8d99ae; margin: 0;">NHỮNG NĂM THÁNG</h1>
-          <h1 style="font-size: 60px; color: #8d99ae; margin: 0;">ĐẤU TRANH</h1>
-        </div>
-
-        <div class="container con-1">
-          <div class="text france">
-            Trong kháng chiến chống thực dân Pháp, lòng yêu nước của tuổi trẻ 
-            Việt Nam được thể hiện rõ nét qua chiến thắng Điện Biên Phủ. Hàng
-            vạn thanh niên đã rời mái trường, làng quê, góp sức người, sức
-            của cho chiến dịch lịch sử. Dù chỉ mới mười tám, đôi mươi,
-            họ đã đặt vận mệnh dân tộc lên trên tuổi xuân của mình.
-          </div>
-
-          <div class="date date-1">
-            <p class="p1">1946</p>
-            <span>|</span>
-            <p class="p2">1954</p>
-          </div>
-        </div>
-
-        <div class="container con-2">   
-          <div class="date date-2">
-            <p class="p1">1954</p>
-            <span>|</span>
-            <p class="p2">1975</p>
-          </div>
-
-          <div class="text usa">
-            Đến thời kỳ kháng chiến chống Mỹ, tinh thần yêu nước của tuổi
-            trẻ tiếp tục tỏa sáng trong chiến trường Quảng Trị khốc liệt.
-            Rất nhiều người lính khi ấy vẫn còn ở độ tuổi thanh niên,
-            sẵn sàng đối mặt với bom đạn để bảo vệ từng tấc đất thiêng
-            liêng của Tổ quốc.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="s3Pic">
-      <img class="pic france" src="img/dbp.png">
-      <img class="pic usa" src="img/mi.png">
-    </div>
-
-    <div class="section section-4">
-      
-    </div>
-  </div>
-
   <script src="script/home.js"></script>
 </body>
+
 </html>
